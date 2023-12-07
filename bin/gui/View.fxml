@@ -5,7 +5,7 @@
 <?import javafx.scene.control.TextField?>
 <?import javafx.scene.layout.AnchorPane?>
 
-<AnchorPane prefHeight="300.0" prefWidth="400.0" xmlns="http://javafx.com/javafx/10.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="gui.ViewController">
+<AnchorPane prefHeight="300.0" prefWidth="400.0" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="gui.ViewController">
    <children>
       <Button fx:id="btSum" layoutX="27.0" layoutY="165.0" mnemonicParsing="false" onAction="#onBtSumClick" text="Sum" />
       <Label layoutX="27.0" layoutY="27.0" text="Calculate sum" />
